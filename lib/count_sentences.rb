@@ -5,7 +5,7 @@ class String
   def sentence?
     "Hi, my name is Sophie.".end_with?(".")
     "Hi!".end_with?(".")
-    self 
+    self.end_with?(".") 
     
   end
 
