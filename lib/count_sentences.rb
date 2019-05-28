@@ -10,6 +10,9 @@ class String
   end
 
   def question?
+    "What's your name?".end_with?("?")
+    "My name is Kateryna."end_with("?")
+    self.end_with("?")
 
   end
 
